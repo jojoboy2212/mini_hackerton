@@ -1,0 +1,189 @@
+[33mcommit 695326f2d02c5bca434f4e98ce14e03db2b246b2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sun May 12 00:22:44 2019 +0900
+
+    login 수정
+
+[33mcommit e26fabbddcdfea4b100bc4fe7a607f129a5e1d8b[m
+Merge: d766461 3ca53fc
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 23:22:58 2019 +0900
+
+    login 수정
+
+[33mcommit d766461794a76418ba640d267b83b7e02fd31e23[m
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 23:21:10 2019 +0900
+
+    login 수정
+
+[33mcommit 3ca53fc75689becdc17ac519b958cc576bb304a1[m
+Merge: 9084f88 9ece24d
+Author: HyungJae <jojoboy2212@gmail.com>
+Date:   Sat May 11 23:18:47 2019 +0900
+
+    asdasdwededee
+
+[33mcommit 9084f8842f2e8ca41d822874eb76dabd91024f02[m
+Author: HyungJae <jojoboy2212@gmail.com>
+Date:   Sat May 11 23:14:51 2019 +0900
+
+    not
+
+[33mcommit 9ece24dabe533195257c2487b9ebda50f112d430[m
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 23:08:14 2019 +0900
+
+    view 수정
+
+[33mcommit ab84404b8b285a5aca4f39a6a76344bc6dc61f09[m
+Merge: c787b50 b65f640
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 22:59:19 2019 +0900
+
+    수정
+
+[33mcommit c787b5077b0fbfa1bde08bffdfb890c214480d71[m
+Merge: 9a47fa8 a8ea05b
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 22:58:24 2019 +0900
+
+    view 수정
+
+[33mcommit b65f640d392548b1fd9ba5843be0f30d0775aebc[m
+Merge: cea6f0f a8ea05b
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 22:45:30 2019 +0900
+
+    .
+
+[33mcommit cea6f0fb65ebc45d133c0b432363539d32b1d726[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 22:37:59 2019 +0900
+
+    .
+
+[33mcommit 9a47fa8b2cfd54f9580e33f9a0f1d763ef912642[m
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 22:34:35 2019 +0900
+
+    edit 추가
+
+[33mcommit a8ea05b643c0d2f560d58448b84932d58be25453[m
+Author: HyungJae <jojoboy2212@gmail.com>
+Date:   Sat May 11 22:28:51 2019 +0900
+
+    asdewer
+
+[33mcommit fa817cfed08351d4fe6d869624aaa6b5ce814353[m
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 22:19:39 2019 +0900
+
+    new 수정
+
+[33mcommit 22ff0970ab658b94c67c3a900886164f3b3e1deb[m
+Author: KimKangYeon <kevin787@hanmail.net>
+Date:   Sat May 11 22:18:21 2019 +0900
+
+    navbar 수정
+
+[33mcommit f6357624434fcb57ac01cb0f403f1d6500e1cbb0[m
+Merge: 90cba08 0f4f4bf
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 22:16:56 2019 +0900
+
+    Merge branch 'master' of https://github.com/SoniaComp/hackerton_mini
+
+[33mcommit 90cba082c208de31f857aa838598c44d55a98fed[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 22:16:54 2019 +0900
+
+    .
+
+[33mcommit 0f4f4bf50f61a2f55d06faf8c230f5c7e15770f9[m
+Author: vhvha <vhvha@korea.ac.kr>
+Date:   Sat May 11 22:16:07 2019 +0900
+
+    url 수정
+
+[33mcommit e01eb382a506b3baf1bdadb9e1c93bf12d3fbcc2[m
+Merge: 9e89937 d2ae9d7
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 22:10:17 2019 +0900
+
+    Merge branch 'master' of https://github.com/SoniaComp/hackerton_mini
+
+[33mcommit 9e8993758e94c3596ec58eecba5c901da474c003[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 22:10:10 2019 +0900
+
+    .
+
+[33mcommit d2ae9d7a3c5d84af13868a895e3619d6ebd04bdc[m
+Author: vhvha <vhvha@korea.ac.kr>
+Date:   Sat May 11 22:06:13 2019 +0900
+
+    .
+
+[33mcommit 193a6a4b0ac01aa631f5f83d2d3bec7e606a7c55[m
+Merge: 5ce0d0e 155538a
+Author: vhvha <vhvha@korea.ac.kr>
+Date:   Sat May 11 22:02:24 2019 +0900
+
+    Merge branch 'master' of https://github.com/SoniaComp/hackerton_mini
+
+[33mcommit 5ce0d0ebbe534531cc733759b8f32c260ac6d5c5[m
+Author: vhvha <vhvha@korea.ac.kr>
+Date:   Sat May 11 22:01:55 2019 +0900
+
+    .
+
+[33mcommit 4394397d970d354377b837bd3cbd1bebd713ce77[m
+Merge: 99b4a02 155538a
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 21:59:53 2019 +0900
+
+    Merge branch 'master' of https://github.com/SoniaComp/hackerton_mini
+
+[33mcommit 99b4a02e8e5aa04380ae51844cc0ba6474a3b758[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 21:59:45 2019 +0900
+
+    .
+
+[33mcommit 155538a187407cef801f5263930a28c74fb5dcd0[m
+Merge: b7723bb 1eb59d0
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 21:59:00 2019 +0900
+
+    Merge branch 'master' of https://github.com/SoniaComp/hackerton_mini
+
+[33mcommit b7723bb5d00fd7c754ae82aa2c035b018d390251[m
+Author: ParkJiHwan <cc6656@naver.com>
+Date:   Sat May 11 21:58:06 2019 +0900
+
+    pipfile 수정
+
+[33mcommit 1eb59d05917461af4cd829403eee4348fb027ff9[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 21:46:53 2019 +0900
+
+    .
+
+[33mcommit da85fd913621b5f3275453084a301f00e8b012a1[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 21:44:26 2019 +0900
+
+    .
+
+[33mcommit 330153041bbe267046878ac2d48bc847e7be38b8[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 21:40:29 2019 +0900
+
+    .
+
+[33mcommit 1b62344b345103583b33403a1140869977b2b448[m
+Author: Sonia <syparkehsc@naver.com>
+Date:   Sat May 11 21:38:55 2019 +0900
+
+    first commit

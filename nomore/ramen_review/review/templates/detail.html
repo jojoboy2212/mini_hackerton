@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block content %}
+<div class="detail_pad">
+    <div class="detail_edit">
+        <a href="{% url 'home' %}"><i style="color: palevioletred;" class="fas fa-home fa-3x"></i></a>
+        <a href="{% url 'edit' post.pk %}"><i style="color: palevioletred;" class="fas fa-edit fa-3x"></i></a>
+        <a href="{% url 'delete' post.pk %}"><i style="color: palevioletred;" class="far fa-trash-alt fa-3x"></i></a>
+    </div>
+
+    <h2 class="new_radio_name">{{ post.title }}</h2>
+    <div class="detail_info">
+        <div><img class="detail_info_left" src="{{ post.img.url }}"></div>
+        <div class="detail_info_right">
+            <p>면 : {{ post.men }}</p>
+            <div>수프 : {{ post.soup }}</div>
+            <div>후레이크 : {{ post.hoke }}</div>
+            <div>토핑 : {{ post.topping }}</div>
+            <div>기타 : {{ post.extra }}</div>
+            <br>
+            <div class="detail_users_user">작성자:{{ post.user }}</div>
+            {{ post.content }}
+        </div>
+    </div>
+
+    <div class="detail_comment">
+        <div class="detail_comment_form">
+            <form class="detail_comment_form" method="POST">{% csrf_token %}
+                {{ form.as_p }}
+                <button class="detail_comment_button" type="submit"><i style="margin-left: 15px; color: palevioletred;"
+                        class="fas fa-comments fa-3x"></i></button>
+            </form>
+        </div>
+        <ul>
+            <table>
+                {% for comment in post.comments.all %}
+                <tr>
+                    <td><strong>댓글이닷!</strong></td>
+                    <td>{{ comment.score }}</td>
+                    <td class="detail_comment_table">{{ comment.addcontent }}</td>
+                    <td><a href="{% url 'delete_comment' post.pk comment.pk %}">삭제</a></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

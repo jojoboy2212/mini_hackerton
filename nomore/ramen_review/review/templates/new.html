@@ -1,0 +1,146 @@
+{% extends 'base.html'%}
+{% block content %}
+<div class="new_entirebox">
+    <form method='POST' enctype='multipart/form-data'>
+        <!-- 라디오 박스 -->
+        <!-- 면 -->
+        <div class="new_radio">
+            <h1 class="new_radio_name">
+                1단계: 면
+                <h1>
+                    <div class="new_radio_men box">
+                        <fieldset id="men">
+                            <label>
+                                <img class="new_radio_men_img" src="../static/picture/noselect.png">
+                                <div class="new_radio_men_title">
+                                    <h5 class="new_radio_title">선택안함</h5>
+                                    <input type="radio" name="men" value="noselect" checked />
+                                </div>
+                            </label>
+                            {% for ramen in ramens %}
+                            <label>
+                                <img class="new_radio_men_img" src="{{ramen.ramen_img.url}}">
+                                <div class="new_radio_men_title">
+                                    <h5 class="new_radio_title">{{ramen.ramen_name}}</h5>
+                                    <input type="radio" name="men" value="{{ramen.ramen_name}}" />
+                                </div>
+                            </label>
+                            {% endfor %}
+                        </fieldset>
+                    </div>
+        </div>
+        <!-- 수프 -->
+        <div class="new_radio">
+            <h1 class="new_radio_name">
+                2단계: 스프
+                <h1>
+                    <div class="new_radio_soup">
+                        <fieldset id="soup">
+                            <label>
+                                <img class="new_radio_men_img" src="../static/picture/noselect.png">
+                                <div class="new_radio_men_title">
+                                    <h5 class="new_radio_title">선택안함</h5>
+                                    <input type="radio" name="soup" value="noselect" checked />
+                                </div>
+                            </label>
+                            {% for ramen in ramens %}
+                            <label>
+                                <img class="new_radio_soup_img" src="{{ramen.ramen_img.url}}">
+                                <div class="new_radio_soup_title">
+                                    <h5 class="new_radio_title">{{ramen.ramen_name}}</h5>
+                                    <input type="radio" name="soup" value="{{ramen.ramen_name}}" />
+                                </div>
+                            </label>
+                            {% endfor %}
+                        </fieldset>
+                    </div>
+        </div>
+        <!-- 후레이크 -->
+        <div class="new_radio">
+            <h1 class="new_radio_name">
+                3단계: 후레이크
+                <h1>
+                    <div class="new_radio_hoke">
+                        <fieldset id="hoke">
+                            <label>
+                                <img class="new_radio_men_img" src="../static/picture/noselect.png">
+                                <div class="new_radio_men_title">
+                                    <h5 class="new_radio_title">선택안함</h5>
+                                    <input type="radio" name="hoke" value="noselect" checked />
+                                </div>
+                            </label>
+                            {% for ramen in ramens %}
+                            <label>
+                                <img class="new_radio_hoke_img" src="{{ramen.ramen_img.url}}">
+                                <div class="new_radio_hoke_title">
+                                    <h5 class="new_radio_title">{{ramen.ramen_name}}</h5>
+                                    <input type="radio" name="hoke" value="{{ramen.ramen_name}}" />
+                                </div>
+                            </label>
+                            {% endfor %}
+                        </fieldset>
+                    </div>
+        </div>
+        <!-- 토핑 -->
+        <div class="new_radio">
+            <h1 class="new_radio_name">
+                좀만더! 토핑
+                <h1>
+                    <div class="new_radio_hoke">
+                        <fieldset id="topping">
+                            <label>
+                                <img class="new_radio_men_img" src="../static/picture/noselect.png">
+                                <div class="new_radio_men_title">
+                                    <h5 class="new_radio_title">선택안함</h5>
+                                    <input type="radio" name="topping" value="noselect" checked />
+                                </div>
+                            </label>
+                            {% for topping in toppings %}
+                            <label>
+                                <img class="new_radio_hoke_img" src="{{topping.topping_img.url}}">
+                                <div class="new_radio_hoke_title">
+                                    <h5 class="new_radio_title">{{topping.topping_name}}</h5>
+                                    <input type="radio" name="topping" value="{{topping.topping_name}}" />
+                                </div>
+                            </label>
+                            {% endfor %}
+                        </fieldset>
+                    </div>
+        </div>
+        <!-- 기타 -->
+        <div class="new_radio">
+            <h1 class="new_radio_name">
+                한번더! 기타
+                <h1>
+                    <div class="new_radio_hoke">
+                        <fieldset id="extra">
+                            <label>
+                                <img class="new_radio_men_img" src="../static/picture/noselect.png">
+                                <div class="new_radio_men_title">
+                                    <h5 class="new_radio_title">선택안함</h5>
+                                    <input type="radio" name="extra" value="noselect" checked />
+                                </div>
+                            </label>
+                            {% for extra in extras %}
+                            <label>
+                                <img class="new_radio_hoke_img" src="{{extra.extra_img.url}}">
+                                <div class="new_radio_hoke_title">
+                                    <h5 class="new_radio_title">{{extra.extra_name}}</h5>
+                                    <input type="radio" name="extra" value="{{extra.extra_name}}" />
+                                </div>
+                            </label>
+                            {% endfor %}
+                        </fieldset>
+                    </div>
+        </div>
+
+        <!-- 사용자 입력 폼 -->
+        <div class="user_form">
+            {% csrf_token %}
+            {{form.as_p}}
+            <!-- 제출 버튼 -->
+            <button type="submit" class="btn">제출!</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

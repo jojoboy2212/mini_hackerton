@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.navbar{
+    display: flex;
+    /* flex-direction: column; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed;
+    background-size: cover;
+    border-bottom: 1px solid red;
+}
+.logo {
+  margin: 0 auto;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.blank_box {
+  width: 5%;
+}
+.navbar_top {
+  display: flex;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black;
+}
+.header {
+    height: 30px;
+    font-size: 17px;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    background: radial-gradient(#F2B9A1, #EA6264);
+    border-bottom: 1px solid red;
+}
+/* header 부분 naming위치 수정 */
+.navbar_right{
+    display: flex;
+    /* float: right; */
+    /* padding-right: 30%; */
+    /* flex-direction: row; */
+    justify-content: end;    
+    width: auto;
+    align-items: center;
+    margin-right: 3%;
+
+}
+
+.navbar_right a {
+    color: black;
+}
+.greeting {
+    margin-left: 3%;
+    align-items: center;
+}
+.logout {
+    width: 130px;
+    text-align: center;
+    margin: 1%;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+}
+.login {
+    text-align: center;
+    width: 130px;
+    margin: 1%;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+
+    align-items: center;
+    justify-content: center;
+}
+.login_2{
+    text-align: center;
+    width: 130px;
+    margin: 1%;
+    border-right: 1px solid gray;
+
+}
+.help {
+    text-align: center;
+    width: 130px;
+    margin: 1%;
+    border-right: 1px solid gray;
+}
+
+/* 여기서부터는 ???? */
+.pani {
+  width: 40%;
+  height: 120%;
+}
+.nav_menu {
+  color: black;
+}
+
+/* 아래부터는 home.html css수정임 */
+.home_videobox {
+  margin: 5%;
+  width: 45%;
+  margin-top: 0;
+  height: 100%;
+}
+.home_video__divider {
+  border-right: 1px solid #dbdbdb;
+}
+.home_board {
+    width: 45%;
+    margin: 5%;
+    margin-top: 0;
+    height: 100%;
+    display: grid;
+    grid-gap: 20px 0;
+    justify-content: space-evenly;
+}
+
+.home_board_list{
+    /* width: 100%;
+    margin: 0 auto;
+    height: 330px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 0;
+    justify-content: space-evenly;
+    overflow: scroll;
+    width: 100%;
+    margin: 10px;
+  
+}
+
+.postimg img {
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+    margin-bottom: 0.1rem;
+    margin-left: 0.2rem;
+    display: block;
+    padding: 0;
+    margin-right: 2%;
+}
+
+/* .postimg {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 0;
+  justify-content: space-evenly;
+} */
+
+
+
+.home_reccomend {
+    border: 1px solid black;
+    margin: 10px;
+    height: 100%;
+    background-color: gray;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.main_content__two {
+    width: 100%;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+/* 리뷰 게시판 */
+/* 여기서부터는 review_list */
+.review_list_entirebox {
+  background-color: white;
+
+  padding-top: 27px;
+  padding-bottom: 15px;
+}
+.review_list_title {
+  text-align: center;
+  background-color: white;
+  color: pink;
+  font-size: 50px;
+  margin-bottom: 130px;
+}
+
+.review_list_bigbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.review_list_post {
+  width: 20%;
+  height: 300px;
+  border: 1px solid darkgrey;
+  border-radius: 20px 50px;
+  padding: 13px 30px 13px 30px;
+  background-color: whitesmoke;
+  color: initial;
+}
+a {
+  background-color: transparent;
+  border-radius: 50px 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  margin-top: 10px;
+}
+.date {
+  font-size: 10px;
+  margin-right: 300px;
+}
+.reviewtitle {
+  font-size: 20px;
+}
+.usersname {
+  font-size: 15px;
+  margin-left: 300px;
+}
+div ul li a div {
+  display: inline;
+}
+
+
+
+
+
+.detail_info{
+  padding: 20px;
+  display: flex;
+}
+
+.detail_info_left{
+  height: 400px;
+}
+ /* detail */
+.detail_info_right{
+  font-size: 20px;
+  font-family: Irop;
+  height: 400px;
+  padding: 30px;
+}
+
+.detail_users{
+  font-size: 20px;
+  font-family: Irop;
+  height: 400px;
+  padding: 30px;
+}
+
+.detail_edit{
+  padding: 30px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail_users_user{
+  font-family: TimonMonsori;
+}
+
+.detail_entirebox{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.detail_title{
+  text-align: center;
+
+}
+
+.detail_reivewbox{
+  margin-top: 20px;
+}
+
+.detail_comment_box{
+  margin-top: 20px;
+  border: 2px solid pink;
+  padding: 10px;
+  width: 500px;
+  height: 50px;
+  font-family: KCC;
+  font-size: 20px;
+  text-align: center;
+}
+
+.detail_comment_form{
+  display: relative;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.detail_comment_form label {
+  width: 100px;
+}
+
+
+.review_post__1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.detail_comment{
+  text-align: center;
+  padding: 10px;
+}
+
+table { 
+  margin: 0 auto;
+  border-spacing: 10px;
+  border-collapse: separate;
+  font-size: 25px;
+}
+
+.detail_comment_table{
+  width: 300px;
+  text-align: left;
+}
+
+
+/* doeifnpqeroingqeriugna;kejlrngal;kebnvaopq3r;bnaseio;rbhnae;bae;ofbnae;oipbnaeroipbnaijrbna */
+.review_list_entirebox {
+  background-color: white;
+
+  padding-top: 27px;
+  padding-bottom: 15px;
+}
+.review_list_title {
+  text-align: center;
+  background-color: white;
+  color: pink;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.review_list_bigbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -2%;
+}
+
+.review_list_post {
+  width: 20%;
+  height: 300px;
+  border: 1px solid darkgrey;
+  border-radius: 20px 50px;
+  padding: 13px 30px 13px 30px;
+  background-color: whitesmoke;
+  color: initial;
+  font-size: 20px;
+}
+a {
+  background-color: transparent;
+  border-radius: 50px 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  margin-top: 10px;
+}
+.date {
+  font-size: 10px;
+  margin-right: 150px;
+}
+.reviewtitle {
+  font-size: 24px;
+}
+.usersname {
+  font-size: 15px;
+  margin-left: 150px;
+}
+div ul li a div {
+  display: inline;
+}
+
+.detail_pad {
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}

@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'TimonMonsori';
+    src: url('../static/fonts/TmonMonsori.ttf.ttf');
+}
+
+@font-face{
+    font-family: 'KCC';
+    src: url('../static/fonts/조선일보명조.ttf');
+}
+
+label{
+    width: 13%;
+    height: 215.25px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.new_entirebox{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.new_radio_name{
+    font-family: TimonMonsori;
+}
+
+.new_radio_title{
+    padding-top: 10px;
+    font-family: KCC;
+}
+
+.new_radio_men{
+    position: relative;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.new_radio_men_img{
+    width:100%;
+    height: 100%;
+    /*
+    border-radius: 10%;
+    box-shadow: gray 0px 4px 1px 1px;
+    */
+}
+
+.new_radio_men_title{
+    text-align: center;
+}
+
+.new_radio_soup_img{
+    width: 100%;
+    height: 100%;
+}
+
+.new_radio_soup_title{
+    text-align: center;
+}
+
+.new_radio_soup{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.new_radio_hoke_img{
+    width: 100%;
+    height: 100%;
+}
+
+.new_radio_hoke_title{
+    text-align: center;
+}
+
+.new_radio_hoke{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.new_radio_name{
+    text-align: center;
+}
+
+.new_radio{
+    margin-top: 80px;
+}
+
+.user_form{
+    margin: 120px auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+}
+
+p>textarea{
+    border: 2px solid pink;
+    padding: 10px;
+    width: 500px;
+    height: 50px;
+    font-family: KCC;
+    font-size: 20px;
+    text-align: center;
+}
+p>label{
+    width: 80px;
+    font-family: TimonMonsori;
+    height: 30px;
+}
+p>input{
+    border: 2px solid pink;
+    padding: 10px;
+    width: 270px;
+    height: 60px;
+    font-family: KCC;
+    font-size: 20px;
+    text-align: center;
+}
+#id_content{
+    height: 350px;
+    width: 700px;
+}
+p{
+    display: inline;
+}
+.btn{
+    background-color: palevioletred;
+    border: 1px purple solid;
+    font-family: TimonMonsori;
+    width: 300px;
+    color: white;
+}
+
+button:hover {
+    color: white;
+    background-color:  purple;
+}
+
+/*
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  */

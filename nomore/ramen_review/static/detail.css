@@ -1,0 +1,51 @@
+.detail_entirebox{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.detail_title{
+    text-align: center;
+
+}
+
+.detail_reivewbox{
+    margin-top: 20px;
+}
+
+.detail_comment_box{
+    margin-top: 20px;
+}
+
+.detail_info{
+    padding: 20px;
+    display: flex;
+  }
+
+  .detail_info_left{
+    height: 400px;
+  }
+   /* detail */
+ .detail_info_right{
+    font-size: 20px;
+    font-family: Irop;
+    height: 400px;
+    padding: 30px;
+  }
+
+  .detail_users{
+    font-size: 20px;
+    font-family: Irop;
+    height: 400px;
+    padding: 30px;
+  }
+
+  .detail_edit{
+    padding: 30px;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.detail_users_user{
+    font-family: TimonMonsori;
+}
